@@ -1,0 +1,430 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fcf5ebcc;
+    margin-top: 2rem;
+    display: block;
+    font-family: Helvetica;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    gap: 10rem;
+    margin-top: 0px;
+    position: sticky;
+    top: 0rem;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0px 0px 0 rgba(99, 90, 90, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
+    height: 10rem;
+    z-index: 1000;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+  
+  .right button {
+    margin-left: 5rem;
+  }
+  
+  .start {
+    background-image: url(https://scontent.whatsapp.net/v/t39.8562-34/316546300_547692113846445_7299710494491288098_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=KcIjbnqjhBAAX-GtoQI&_nc_ht=scontent.whatsapp.net&oh=01_AdQFoQx2TOtttNC6V-J27LOxmgWPW0KOekj8xA-BCPxhwg&oe=641367E5), url(https://scontent.whatsapp.net/v/t39.8562-34/318567080_617695970110803_5923371384204745052_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=Y_TVF2b5zowAX-wyLxf&_nc_ht=scontent.whatsapp.net&oh=01_AdTwX9S-mVjjbv8maY11wRUxH_DTST-t5bhjyT_lej0uEQ&oe=640958E6);
+    background-size: cover;
+    z-index: 0, 1;
+    height: 45rem;
+    font-size: 3rem;
+    color: white;
+    border-radius: 1rem;
+    padding: 4rem;
+    margin: 0px 2rem;
+  }
+  
+  .start h1 {
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+    width: 12rem;
+  }
+  
+  .start p {
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+    font-size: 1.5rem;
+    width: 21rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .right button {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 19rem;
+    background-color: #25d366;
+    border-style: none;
+  }
+  
+
+.start p{
+    position: relative;
+    top: 10rem;
+    left:5rem;
+    font-size: 1.5rem;
+    width: 21rem;
+    margin-bottom:2rem;
+    margin-top: 0.5rem;
+}
+
+.download  {
+    position: relative;
+    top:10rem;
+    left:5rem;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 19rem;
+    background-color: #25d366;
+    border-style: none;
+}
+
+
+.chat img{
+    max-width: 90rem;
+    margin-left: 5rem;
+    margin-top: 7rem;
+}
+
+.beyou p {
+    font-size: 3rem;
+    width: 63rem;
+    margin-top: 3rem;
+    margin-left: 20rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.never-miss{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 10rem;
+}
+
+.text h2{
+    font-size: 7rem;
+    width: 43rem;
+    margin-left: 18rem;
+    font-weight: 50;
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin-left:19rem ;
+    font-weight: 50;
+    width: 39rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.speak{
+    background-color: #1c1e21;
+    height: 70rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    
+}
+
+.freely{
+    color:white;
+    font-size: 5rem;
+    margin-left: 13rem;
+    margin-top: 5rem;
+}
+
+.freely b{
+    color: #25d366;
+    font-weight: inherit;
+
+}
+.end {
+    color: white;
+    margin-top: 1rem;
+    /* font-weight: 100; */
+    font-size: 1.5rem;
+    margin-left: 13rem;
+    width: 35rem;
+}
+
+/* .speak{
+    display: flex;
+    flex-direction: row;
+    color:white;
+
+} */
+
+.learn{
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top:5rem;
+    margin-left: 13rem;
+}
+
+.flexed{
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.speak img{
+    margin-left: 10rem;
+    height: 55rem;
+}
+
+
+.keep__inTouch h2
+{
+    margin-top: 10rem;
+    font-size: 4rem;
+    width: 40rem;
+    margin-left: 18rem;
+    font-weight: 5;  
+}
+.keep__inTouch p{
+    font-size: 1.5rem;
+    margin-left:19rem ;
+    font-weight: 50;
+    width: 39rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem; 
+}
+
+/* .keep__inTouchdiv {
+    display: flex;
+    flex-direction: row;
+} */
+
+
+.keep__inTouch img{
+float: right;
+margin-left:-1rem;
+}
+
+.chat1{
+    margin-right: -21rem;
+    margin-top: -25rem;
+}
+
+.ph1{
+    margin-right: 10rem;
+    margin-top: -30rem;
+}
+
+ .learn1{
+    border-bottom:5px #25d366;
+}
+
+
+.pebbele{
+height: 200px;
+margin-top: 35rem;
+}
+
+.say__what h2{
+    font-size: 5rem;
+    margin-left: 53rem;
+    font-weight: 1;
+    width: 30rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+
+
+.girl{
+    margin-left: 20rem;
+}
+.heart{
+    margin-left: -24rem;
+    width: 29rem;
+}
+
+.say__what p{
+    margin-left: 53rem;
+    font-size: 1.5rem;
+    width: 46rem;
+}
+
+.transform{
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: row;
+    gap:10rem;
+}
+
+.business{
+    display: flex;
+    flex-direction: column;
+    width: 46rem;
+    margin-left: 10rem;
+    /* gap: 10rem; */
+}
+
+.business h2{
+    font-size: 5rem;
+    font-weight: lighter;
+    width: 32rem;
+}
+
+.business p{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    width: 46rem;  
+}
+
+
+.business .learn{
+border-bottom:#25d366;
+margin-left:0rem ;
+}
+
+
+
+.connect{
+    background-color: #E6FFDA;
+    width: 100%;
+    /* height: 100%; */
+   display: flex;
+   overflow:hidden;
+   border-bottom-left-radius: 3rem;
+   border-bottom-right-radius: 3rem;
+   
+}
+.connect h2{
+    font-size: 2rem;
+    font-weight: lighter;
+    padding: 10rem;
+    width: 100rem;
+}
+
+.white-box
+{
+    float: left;
+    background-color: white;
+    font-size: x-large;
+    border-radius: 1.5rem;
+    width: 43rem;
+    height: 26rem;
+    /* gap: 10rem; */
+    margin-right: 20rem;
+    margin: 8rem -12rem 13rem 40rem;
+}
+
+.white-box p{
+    width: 31rem;
+    margin: 2rem;
+}
+
+#w1{
+    width: 39rem;
+    margin-left: 14rem;
+}
+
+.fa-whatsapp {  
+    margin-top: 2rem;
+margin-left: 2rem;
+}
+
+
+.blck{
+    background-color: #111b21;
+    height: 93rem;
+    width: 100%;
+}
+
+.footer{
+    color: white;
+    margin: 10rem;
+    align-items: center;
+}
+
+.us{
+    position: relative;
+    top: 28rem;
+    padding: 12rem;
+    margin: -9rem 0rem -6rem -9rem;
+    font-size: 4rem;
+}
+
+.aall{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    margin-left: 20rem;
+   
+}
+
+.aall ul li {
+    margin-top: 1.2rem;
+    list-style-type: none;
+    font-size: 1.3rem;
+
+}
+
+.colfoot{
+display: flex;
+flex-direction: column;
+
+
+
+}
+.colfoot button{
+    width:10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    position: relative;
+    background-color: #25d366;;
+    top: 13rem;
+    font-size:1.1rem;
+}
+
+.hr{
+    width:10rem;
+    margin: 0rem 0rem 0rem 30rem;
+}
+
+.terms{
+    color: white;
+    letter-spacing:normal;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    /* padding: 1rem; */
+    align-items: center;
+}
+
+.language{
+    margin-left: 20rem;
+    height: 3rem;
+    border-radius: 2rem;
+    width: 8rem;
+    text-align:center;
+    font-size: 1.2rem;
+
+}
+
+
+
